@@ -18,14 +18,14 @@
 				3.1获取点击li下img的路径
 
 		*/
-window.onload=function(){
+
 		var data={
 			oUl:document.querySelector('.swiper>ul'),
 			aLi:document.querySelectorAll('.swiper>ul>li'),
 			bg:document.querySelector(".swiper>.bg"),
 			time:"1s"
 		}
-		
+		swiper(data)
 		function swiper(data){
 		data.oUl.style.width=data.aLi.length+'00vw';
 
@@ -115,5 +115,4 @@ window.onload=function(){
 			}
 		}
 }
-	swiper(data)
-}
+	
