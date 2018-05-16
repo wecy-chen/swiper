@@ -25,7 +25,7 @@ window.onload=function(){
 			bg:document.querySelector(".swiper>.bg"),
 			time:"1s"
 		}
-		swiper(data)
+		
 		function swiper(data){
 		data.oUl.style.width=data.aLi.length+'00vw';
 
@@ -115,4 +115,5 @@ window.onload=function(){
 			}
 		}
 }
+	swiper(data)
 }
